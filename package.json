@@ -2,17 +2,17 @@
   "name": "project-group-9",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://keytarina.github.io/project-group-9/",
+  "homepage": "https://TanyaMarchenkoS.github.io/project-js-book/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-group-9/"
+    "build": "parcel build src/*.html --public-url /project-js-book/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Keytarina/project-group-9"
+    "url": "git+https://github.com/TanyaMarchenkoS/project-js-book"
   },
   "keywords": [],
-  "author": "Kateryna Yakubych <kateryna.yakubych@gmail.com>",
+  "author": " <marcenkot466@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Keytarina/project-group-9/issues"
