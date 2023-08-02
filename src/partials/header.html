@@ -1,0 +1,122 @@
+<header>
+  <div class="header-container container">
+    <nav class="header-main">
+      <a class="header-logo" href="./index.html">
+        <svg width="24" height="24">
+          <use href="./image/icons-sprite.svg#icon-logo1"></use>
+        </svg>
+        <svg class="main-logo" width="77" height="13.27">
+          <use href="./image/icons-sprite.svg#icon-logo2"></use>
+        </svg>
+      </a>
+      <div class="header-nav visually-hidden" id="header-nav">
+        <div class="header-home">
+          <a href="./index.html">home</a>
+        </div>
+        <div class="header-shopping-list">
+          <a href="./shopping.html"
+            >shopping list
+            <svg class="main-logo" width="20" height="20">
+              <use href="./image/icons-sprite.svg#icon-uil-cart"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="header-main btn-bloc">
+      <div class="header-toggle">
+        <div class="header-toggle-container">
+          <input type="checkbox" id="toggle-button" class="toggle-button" />
+          <label for="toggle-button" class="text"></label>
+        </div>
+      </div>
+      <ul>
+        <li>
+          <button class="burger-menu" id="burger">
+            <svg
+              class="burger-btn-open"
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.8333 11.6667H3.5"
+                stroke="#111111"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M24.5 7H3.5"
+                stroke="#111111"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M24.5 16.3333H3.5"
+                stroke="#111111"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M19.8333 21H3.5"
+                stroke="#111111"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <svg class="burger-btn-close" width="18" height="18" fill="none">
+              <path
+                class="buger-btn-close-ico"
+                stroke="#111"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2.5"
+                d="M16 2 2 16M2 2l14 14"
+              ></path>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-login" data-authorization-open>
+            Sign up
+            <svg class="btn-login-img" width="20" height="20">
+              <use
+                href="./image/icons-sprite.svg#icon-arrow-narrow-right"
+              ></use>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-logout visually-hidden">
+            Log out
+            <svg class="btn-logout-img" width="20" height="20">
+              <use
+                href="./image/icons-sprite.svg#icon-arrow-narrow-right"
+              ></use>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn-signed visually-hidden">
+            <img
+              class="btn-client-img"
+              src="./image/userpic.png"
+              alt="user foto"
+            />
+            Username
+            <svg class="btn-client-caret" width="23" height="26">
+              <use href="./image/icons-sprite.svg#icon-caret-down"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="burger-wraper"></div>

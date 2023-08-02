@@ -1,0 +1,154 @@
+@import url('./_reset.css');
+@import url('./_root-color.css');
+@import url('./header.css');
+@import url('./support.css');
+/* ---------- AUTHORIZATION PAGE -------------- */
+@import url('./authorization.css');
+/* ---------- HOME PAGE -------------- */
+@import url('./categories.css');
+@import url('./best-sellers.css');
+@import url('./modal.css');
+@import url('./scroll-top.css');
+/* ---------- SHOPPING LIST PAGE -------------- */
+@import url('./shopping-list.css');
+
+/* --------THEME-----*/
+@import url('./theme.css');
+
+/* global styles */
+
+/* ======================================================================== */
+/* Підключення шрифтіа через директиву @font-face */
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/DMSans-400Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/DMSans-400Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/DMSans-500Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/DMSans-700Bold.ttf) format('truetype');
+}
+/* ======================================================================== */
+
+.container {
+  max-width: 375px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-wraper {
+  padding-top: 104px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.categories-support-wraper {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 769px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .main-wraper {
+    padding-top: 112px;
+  }
+  .categories-support-wraper {
+    gap: 32px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .main-wraper {
+    padding-top: 112px;
+    flex-wrap: nowrap;
+  }
+  .categories-support-wraper {
+    gap: 86px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: DM Sans, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  background-color: var(--background-color-main);
+  color: var(--main-text-color);
+  transition: 1s;
+}
+button {
+  transition: color var(--transition-property),
+    background-color var(--transition-property),
+    box-shadow var(--transition-property),
+    border-color var(--transition-property);
+}
+a {
+  transition: color var(--transition-property),
+    background-color var(--transition-property),
+    box-shadow var(--transition-property),
+    border-color var(--transition-property);
+}
+svg {
+  transition: fill var(--transition-property);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}

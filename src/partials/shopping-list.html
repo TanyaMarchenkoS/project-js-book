@@ -1,0 +1,115 @@
+<section class="shopping-list-section">
+  <div class="shopping-list-container">
+    <h1 class="shopping-title">
+      Shopping <span class="shopping-title-span">List</span>
+    </h1>
+    <button class="shopping-refresh-btn">
+      &nbsp;Refresh&nbsp;
+      <span class="span-btn">&nbsp;</span>
+      <svg class="shopping-btn-reload-icon" width="22" height="22">
+        <use class="reload-icon" href="./image/icons-all.svg#reload"></use>
+      </svg>
+    </button>
+
+    <ul class="shopping-list-list list"></ul>
+    <ul class="shopping-paginator-list visually-hidden">
+      <li class="shopping-paginator-backward">
+        <ul class="shopping-paginator-backward-list">
+          <li class="shopping-paginator-backward-item">
+            <button
+              class="shopping-paginator-btn"
+              data-page="start"
+              type="button"
+            >
+              &lt;&lt;
+            </button>
+          </li>
+          <li class="shopping-paginator-backward-item">
+            <button
+              class="shopping-paginator-btn"
+              data-page="last"
+              type="button"
+            >
+              &lt;
+            </button>
+          </li>
+        </ul>
+      </li>
+      <li class="shopping-paginator-pages">
+        <ul class="shopping-paginator-pages-list">
+          <li class="shopping-paginator-pages-item">
+            <button
+              class="shopping-paginator-btn current-page"
+              data-page="first"
+              type="button"
+            >
+              1
+            </button>
+          </li>
+          <li class="shopping-paginator-pages-item">
+            <button
+              class="shopping-paginator-btn"
+              data-page="second"
+              type="button"
+            >
+              2
+            </button>
+          </li>
+          <li class="shopping-paginator-pages-item">
+            <button
+              class="shopping-paginator-btn btn-hidden"
+              data-page="third"
+              type="button"
+            >
+              3
+            </button>
+          </li>
+          <li class="shopping-paginator-pages-item">
+            <button
+              class="shopping-paginator-btn"
+              data-page="more"
+              type="button"
+            >
+              ...
+            </button>
+          </li>
+        </ul>
+      </li>
+      <li class="shopping-paginator-forkward">
+        <ul class="shopping-paginator-forward-list">
+          <li class="shopping-paginator-forward-item">
+            <button
+              class="shopping-paginator-btn"
+              data-page="next"
+              type="button"
+            >
+              &gt;
+            </button>
+          </li>
+          <li class="shopping-paginator-forward-item">
+            <button
+              class="shopping-paginator-btn"
+              data-page="end"
+              type="button"
+            >
+              &gt;&gt;
+            </button>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="shopping-dummy-message visually-hidden">
+      <p class="shopping-text">
+        This page is empty, add some books and proceed to order.
+      </p>
+
+      <img
+        class="shopping-empty-img"
+        width="265"
+        src="./image/shopping/shopping-list-empty-w265-h198.png"
+        alt="column of four different books"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
