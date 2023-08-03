@@ -15,7 +15,7 @@
   "author": " <marcenkot466@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TanyaMarchenkoS/project-js-book/issues"
+    "url": "https://github.com/TanyaMarchenkoS/project-js-book/"
   },
   "dependencies": {
     "axios": "^1.4.0",
